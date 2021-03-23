@@ -7,10 +7,9 @@ const ImageScreen = () => {
 
     return (
         <View>
-          <ImageDetail></ImageDetail>
-          <ImageDetail></ImageDetail>
-          <ImageDetail></ImageDetail>
-          <ImageDetail></ImageDetail>
+          <ImageDetail title="Forest" imageSource= {require('../../assets/1.jpg')} score="9"/>
+          <ImageDetail title="Beach"  imageSource= {require('../../assets/2.jpg')} score="8" />
+          <ImageDetail title="Mountain" imageSource= {require('../../assets/3.jpg')} score="7" />
         </View>
     );
 }
