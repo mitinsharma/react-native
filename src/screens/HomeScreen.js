@@ -35,6 +35,10 @@ const HomeScreen = (props) => {
       onPress={() => props.navigation.navigate('SquareReducer')}
       title="Go to Square demo using reducer"
     />
+    <Button 
+      onPress={() => props.navigation.navigate('CounterReducer')}
+      title="Go to Counter demo using reducer"
+    />
     <TouchableOpacity onPress={() => props.navigation.navigate('List')}>
       <Text>Go to List Demo</Text>
     </TouchableOpacity>
